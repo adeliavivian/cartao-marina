@@ -1,0 +1,105 @@
+/* Cartao.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #7c0000e3;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cartao {
+    width: 100%;
+    max-width: 375px; /* Ajusta para a largura do iPhone 12 */
+    height: 600px; /* Ajusta a altura */
+    background: linear-gradient(45deg, #ccc, #ccc);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+  }
+  
+  .cartao-conteudo {
+    padding: 20px;
+  }
+  
+  .cartao-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cartao-header h1 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .cartao-body {
+    font-size: 16px;
+  }
+  
+  .cartao-body p {
+    margin-bottom: 10px;
+  }
+  
+  .links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .links a {
+    text-decoration: none;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .cartao-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .botao-marvel {
+    padding: 12px 20px;
+    background-color: #ffd700;
+    border: none;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-marvel:hover {
+    background-color: #ffffff9a;
+  }
+#logo{
+    width: 90%;
+    float: left;
+  }
+#insta{
+    width: 30px;
+}
+#link{
+    width: 30px
+}
+#site{
+    width: 40px;
+}
